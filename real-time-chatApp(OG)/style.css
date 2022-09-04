@@ -1,0 +1,141 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #e2e0e0;
+}
+
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-link {
+    text-decoration: none;
+    color: #a5a3a5;
+    cursor: pointer;
+    font-size: 15px;
+    background: #eee;
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: inherit;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+.chat-app {
+    background-color: #f1e8e8;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #fafafa;
+
+}
+
+.header .name-details {
+    display: flex;
+    align-items: center;
+
+}
+
+.header .name-details h5 {
+    margin-left: 10px;
+}
+
+.chat-section {
+    padding: 1rem;
+    flex-grow: 1;
+    float: left;
+    overflow: auto;
+}
+
+.single-chat {
+    display: flex;
+    margin-left: 100px;
+    width: 80%;
+    margin-top: 8px;
+}
+
+.message-details {
+    padding: 0.5rem;
+    background-color: #151515;
+    color: #fff;
+    margin-left: 1rem;
+    border-radius: 5px;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+
+.message-details .h5 {
+    font-weight: 600;
+    color: #eee;
+    font-size: 15px;
+}
+
+.message-details .p {
+    font-weight: 400;
+    color: #fafafa;
+    font-size: 0.5rem;
+
+
+}
+
+.message-details small {
+    opacity: 0.5rem;
+}
+
+.enter-message form {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    padding: 10px;
+}
+
+form input {
+    flex-grow: 1;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 17px;
+
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.my-chat {
+    margin: 0px, 0px, 0px, auto;
+}
