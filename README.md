@@ -30,7 +30,7 @@ To run the real-time chat app locally or customize it for your own use, follow t
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/realtime-chat-app.git
+    gh repo clone muhammednawaf/realtime-chat-app
     ```
 
 2. Set up a Firebase project and configure it for your application. Follow the instructions provided by Firebase to set up Firestore and Google Authentication.
